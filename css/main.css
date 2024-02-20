@@ -596,7 +596,7 @@ div.show > div.show1 > a > div.slid > div.empoty {
   position: absolute;
   z-index: 2;
   transform: scale(0);
-  transform-origin: top left;
+  transform-origin: center center;
   background: #035d3281;
   transition: all 300ms linear;
 }
@@ -676,4 +676,91 @@ div.header6 > h1 {
   color: white;
   font-size: 50px;
   text-shadow: 3px 3px 3px black;
+}
+div.page6 {
+  width: 1032px;
+  height: 650px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 1px black;
+  margin-bottom: 30px;
+  border-radius: 0 0 25px 25px;
+}
+div.page6 > div.page-right {
+  width: 480px;
+  height: 515px;
+}
+div.page6 h3 {
+  padding: 25px;
+}
+div.page6 span {
+  color: #0f832c;
+}
+div.page6 div.location > iframe {
+  width: 450px;
+  height: 200px;
+  margin: 0 25px;
+}
+div.page6 div.addres1 {
+  width: 480px;
+  height: 30px;
+  margin: 40px 25px;
+}
+div.page6 p {
+  color: #a8a7a7;
+  font-size: small;
+}
+div.page6 div.addres1 span {
+  margin-left: 35px;
+}
+div.page6 > div.page-left {
+  width: 480px;
+  height: 515px;
+}
+div.page6 div.page-name {
+  margin: 25px 25px;
+  display: flex;
+  align-items: center;
+}
+div.page6 input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cdcdcd;
+}
+div.page6 input.first {
+  width: 300px;
+  height: 200px;
+}
+div.page6 div.page-name span {
+  margin-left: 25px;
+}
+div.page6 div.page-name textarea {
+  width: 300px;
+  height: 150px;
+  margin-left: 20px;
+  resize: vertical;
+  background-color: #cdcdcd;
+  border-radius: 5px;
+}
+div.page6 div.sent {
+  width: 100px;
+  height: 40px;
+  margin: 25px;
+  background-color: #079d0c;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 300ms linear;
+}
+div.page6 a {
+  text-decoration: none;
+  font-size: x-small;
+  line-height: 40px;
+  color: white;
+}
+div.page6 > div.page-left:hover > div.sent {
+  scale: 1.1;
 }
